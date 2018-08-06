@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.api</groupId>
-	<artifactId>skeleton</artifactId>
+	<artifactId>skeleton-exp</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule</packaging>
 
