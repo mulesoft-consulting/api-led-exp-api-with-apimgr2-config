@@ -13,7 +13,7 @@ API configuration is executed with ApiConfigTool (using the exec-maven-plugin).
 ###API Runtime Deployment
 The API deployable archive can be deployed to only one deployment (Runtime) environment at a time.
 
-The deployment environment server configuration information is stored in the Maven settings.xml file. This means that a separation between developer accessible enviroments and devops (or CI/CD) environments can be maintained in the settings.
+The deployment environment server configuration information is stored in the Maven settings.xml file. This means that a separation between developer accessible environments and devops (or CI/CD) environments can be maintained in the settings.
 
 Deployment is executed with the deploy goal (it uses the mule-maven-plugin). This will also push the deployable archive file to a Maven distribution repository if one is configured and the Maven property skip.publish.artifact is set to false.
 
@@ -31,7 +31,7 @@ Deployment is executed with the deploy goal (it uses the mule-maven-plugin). Thi
 3. Update the configuration files in the src/main/resources directory to have the correct implementation values.
 4. Add the API's RAML to the api directory
 5. Generate the ApiKit flows from the RAML
-6. Move the generated code to the propert logic.xml file
+6. Move the generated code to the proper logic.xml file
 7. Remove any duplicated code
 8. Add minimal logging (timerInterceptor) to each of the ApiKit generated flows
 4. Update the *-policies.json files to have the correct policy definitions. The standard is client id enforcement
